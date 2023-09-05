@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Marco zero</title>
 </head>
-<header>
-    <a href="index.html">
-        <img src="imgs/eurotour-logo-cor.png" alt="EuroTour" width="90">
-    </a>
-    <nav>
-        <ul>           
-            <li><a href="passagens.html">Passagem</a></li>
-            <li><a href="hospedagem.html">Hospedagem</a></li>
-            <li><a href="pontos_turisticos.html">Pontos turísticos</a></li>
-        </ul>
-    </nav>
-</header>
 <body>
+    <header>
+        <nav> 
+            <ul class="menu">
+                <a href="index.html" id="logo">
+                    <img src="imgs/eurotour-logo-cor.png" alt="EuroTour" width="90">
+                </a>
+                <li><a href="passagens.html" id="passagens">Passagem</a></li> 
+                <li><a href="hospedagem.html" id="hospedagem">Hospedagem</a></li>
+                <li><a href="conheca.html" id="conheca">Conheça</a></li>
+                <li><a href="login.html"><img src="imgs/login_person.svg" alt="login_person" id="login"></a></li>     
+         
+            </ul>              
+        </nav>
+    </header>
     <main>
         <h1>Paço do Frevo</h1>
         <img src="imgs/paco_frevo.jpg" alt="Paço do Frevo"> 
@@ -37,14 +40,31 @@
             <a href="marco_zero.html"><li>Marco Zero</li></a>
         </ul>
 
+        <section class="sobre_nos">
+            <img src="imgs/eurotour-logo-pb.png" alt="Eurotour logo" width="70" id="logo_pb">
+            <h2>Sobre nós</h2>            
+            <p>A EURO Tour é um site que ajuda você a planejar a sua viagem pela Europa,
+                desde a compra das passagens até a visita aos pontos turíscticos mais importantes
+                de cada região! 
+            </p>
+        </section>
     </main>
-    <footer>
-        <img src="imgs/eurotour-logo-pb.png" alt="Eurotour logo" width="70">
-        <ol>
-            <a href="https://facebook.com">facebook</a><br>
-            <a href="https://instagram.com">Instagram</a><br>
-            <a href="https://br.linkedin.com">Linkedin</a>
-        </ol>
-    </footer>  
+
+    <footer class="rodape">
+        <ul>
+            <h3>Contatos</h3>
+            <li>Telefone: (11) 99999-9999</li>
+            <li>Sac: 0800-123456</li>
+            <li>E-mail:contato@eurotourviagens.com</li>
+        </ul>
+        <p>Aproveite as nossas ofertas nas redes sociais</p>
+        <ul class="redes_sociais">
+
+            <a href="https://facebook.com"><img src="imgs/face.png" alt="facebook" width="30"></a>
+            <a href="https://instagram.com"><img src="imgs/insta.png" alt="instagram" width="30"></a>
+            <a href="https://br.linkedin.com"><img src="imgs/linkedin.png" alt="linkedin" width="30"></a>
+            <a href="https://threads.net"><img src="imgs/threads_resized.avif" alt="threads" width="30"></a>
+        </ul>
+    </footer>   
 </body>
 </html>
